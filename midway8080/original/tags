@@ -1,0 +1,111 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/reaper/Downloads/m8bits/midway8080/original/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+COIN1	cosmic_impalas.c	/^#define COIN1 /;"	d	file:
+Enemy	cosmic_impalas.c	/^} Enemy;$/;"	t	typeref:struct:__anonc8e4587a0108	file:
+FIRE1	cosmic_impalas.c	/^#define FIRE1 /;"	d	file:
+HICHAR	cosmic_impalas.c	/^#define HICHAR /;"	d	file:
+HICHAR	gfxtest.c	/^#define HICHAR /;"	d	file:
+LEFT1	cosmic_impalas.c	/^#define LEFT1 /;"	d	file:
+LOCHAR	cosmic_impalas.c	/^#define LOCHAR /;"	d	file:
+LOCHAR	gfxtest.c	/^#define LOCHAR /;"	d	file:
+MAXLIVES	cosmic_impalas.c	/^#define MAXLIVES /;"	d	file:
+MAX_ENEMIES	cosmic_impalas.c	/^#define MAX_ENEMIES /;"	d	file:
+MarchMode	cosmic_impalas.c	/^} MarchMode;$/;"	t	typeref:struct:__anonc8e4587a0208	file:
+RIGHT1	cosmic_impalas.c	/^#define RIGHT1 /;"	d	file:
+START1	cosmic_impalas.c	/^#define START1 /;"	d	file:
+START2	cosmic_impalas.c	/^#define START2 /;"	d	file:
+_RST_8	cosmic_impalas.c	/^void _RST_8() __naked {$/;"	f	typeref:typename:void
+__anonc8e4587a0108	cosmic_impalas.c	/^typedef struct {$/;"	s	file:
+__anonc8e4587a0208	cosmic_impalas.c	/^typedef struct {$/;"	s	file:
+add_score	cosmic_impalas.c	/^void add_score(word pts) {$/;"	f	typeref:typename:void
+attract	cosmic_impalas.c	/^byte attract;$/;"	v	typeref:typename:byte
+attract_mode	cosmic_impalas.c	/^void attract_mode() {$/;"	f	typeref:typename:void
+bcd_add	cosmic_impalas.c	/^word bcd_add(word a, word b) __naked {$/;"	f	typeref:typename:word
+bomb_bitmap	cosmic_impalas.c	/^const byte bomb_bitmap[] =$/;"	v	typeref:typename:const byte[]
+bomb_x	cosmic_impalas.c	/^byte bomb_x;$/;"	v	typeref:typename:byte
+bomb_y	cosmic_impalas.c	/^byte bomb_y;$/;"	v	typeref:typename:byte
+bullet_bitmap	cosmic_impalas.c	/^const byte bullet_bitmap[] =$/;"	v	typeref:typename:const byte[]
+bullet_x	cosmic_impalas.c	/^byte bullet_x;$/;"	v	typeref:typename:byte
+bullet_y	cosmic_impalas.c	/^byte bullet_y;$/;"	v	typeref:typename:byte
+byte	cosmic_impalas.c	/^typedef unsigned char byte;$/;"	t	typeref:typename:unsigned char	file:
+byte	gfxtest.c	/^typedef unsigned char byte;$/;"	t	typeref:typename:unsigned char	file:
+check_bullet_hit	cosmic_impalas.c	/^void check_bullet_hit(byte x, byte y) {$/;"	f	typeref:typename:void
+clear_sprite	cosmic_impalas.c	/^void clear_sprite(const byte* src, byte x, byte y) {$/;"	f	typeref:typename:void
+clrscr	cosmic_impalas.c	/^void clrscr() {$/;"	f	typeref:typename:void
+clrscr	gfxtest.c	/^void clrscr() {$/;"	f	typeref:typename:void
+credits	cosmic_impalas.c	/^byte credits;$/;"	v	typeref:typename:byte
+curplayer	cosmic_impalas.c	/^byte curplayer;$/;"	v	typeref:typename:byte
+delete_enemy	cosmic_impalas.c	/^void delete_enemy(Enemy* e) {$/;"	f	typeref:typename:void
+destroy_player	cosmic_impalas.c	/^void destroy_player() {$/;"	f	typeref:typename:void
+down	cosmic_impalas.c	/^  byte down:1;$/;"	m	struct:__anonc8e4587a0208	typeref:typename:byte:1	file:
+draw_bcd_word	cosmic_impalas.c	/^void draw_bcd_word(word bcd, byte x, byte y) {$/;"	f	typeref:typename:void
+draw_bunker	cosmic_impalas.c	/^void draw_bunker(byte x, byte y, byte y2, byte h, byte w) {$/;"	f	typeref:typename:void
+draw_char	cosmic_impalas.c	/^void draw_char(char ch, byte x, byte y) {$/;"	f	typeref:typename:void
+draw_char	gfxtest.c	/^void draw_char(char ch, byte x, byte y) {$/;"	f	typeref:typename:void
+draw_font	gfxtest.c	/^void draw_font() {$/;"	f	typeref:typename:void
+draw_lives	cosmic_impalas.c	/^void draw_lives(byte player) {$/;"	f	typeref:typename:void
+draw_playfield	cosmic_impalas.c	/^void draw_playfield() {$/;"	f	typeref:typename:void
+draw_score	cosmic_impalas.c	/^void draw_score(byte player) {$/;"	f	typeref:typename:void
+draw_sprite	cosmic_impalas.c	/^void draw_sprite(const byte* src, byte x, byte y) {$/;"	f	typeref:typename:void
+draw_string	cosmic_impalas.c	/^void draw_string(const char* str, byte x, byte y) {$/;"	f	typeref:typename:void
+draw_string	gfxtest.c	/^void draw_string(const char* str, byte x, byte y) {$/;"	f	typeref:typename:void
+draw_vline	cosmic_impalas.c	/^void draw_vline(byte x, byte y1, byte y2) {$/;"	f	typeref:typename:void
+draw_vline	gfxtest.c	/^void draw_vline(byte x, byte y1, byte y2) {$/;"	f	typeref:typename:void
+drop_bomb	cosmic_impalas.c	/^void drop_bomb() {$/;"	f	typeref:typename:void
+enemies	cosmic_impalas.c	/^Enemy enemies[MAX_ENEMIES];$/;"	v	typeref:typename:Enemy[]
+enemy1_bitmap	cosmic_impalas.c	/^const byte enemy1_bitmap[] =$/;"	v	typeref:typename:const byte[]
+enemy2_bitmap	cosmic_impalas.c	/^const byte enemy2_bitmap[] =$/;"	v	typeref:typename:const byte[]
+enemy3_bitmap	cosmic_impalas.c	/^const byte enemy3_bitmap[] =$/;"	v	typeref:typename:const byte[]
+enemy4_bitmap	cosmic_impalas.c	/^const byte enemy4_bitmap[] =$/;"	v	typeref:typename:const byte[]
+enemy_bitmaps	cosmic_impalas.c	/^const byte* const enemy_bitmaps[4] = {$/;"	v	typeref:typename:const byte * const[4]
+enemy_index	cosmic_impalas.c	/^byte enemy_index;$/;"	v	typeref:typename:byte
+erase_sprite	cosmic_impalas.c	/^void erase_sprite(const byte* src, byte x, byte y) {$/;"	f	typeref:typename:void
+find_enemy_at	cosmic_impalas.c	/^Enemy* find_enemy_at(byte x, byte y) {$/;"	f	typeref:typename:Enemy *
+fire_bullet	cosmic_impalas.c	/^void fire_bullet() {$/;"	f	typeref:typename:void
+font8x8	cosmic_impalas.c	/^const byte font8x8[HICHAR-LOCHAR+1][8] = {\/*{w:8,h:8,bpp:1,count:63,xform:"rotate(-90deg)"}*\/$/;"	v	typeref:typename:const byte[][8]
+font8x8	gfxtest.c	/^const byte font8x8[HICHAR-LOCHAR+1][8] = {\/*{w:8,h:8,bpp:1,count:63,xform:"rotate(-90deg)"}*\/$/;"	v	typeref:typename:const byte[][8]
+frame	cosmic_impalas.c	/^byte frame;$/;"	v	typeref:typename:byte
+game_over_msg	cosmic_impalas.c	/^void game_over_msg() {$/;"	f	typeref:typename:void
+in_rect	cosmic_impalas.c	/^char in_rect(Enemy* e, byte x, byte y, byte w, byte h) {$/;"	f	typeref:typename:char
+init_enemies	cosmic_impalas.c	/^void init_enemies() {$/;"	f	typeref:typename:void
+init_game	cosmic_impalas.c	/^void init_game() {$/;"	f	typeref:typename:void
+lives	cosmic_impalas.c	/^byte lives;$/;"	v	typeref:typename:byte
+main	cosmic_impalas.c	/^void main() {$/;"	f	typeref:typename:void
+main	gfxtest.c	/^void main() {$/;"	f	typeref:typename:void
+move_bomb	cosmic_impalas.c	/^void move_bomb() {$/;"	f	typeref:typename:void
+move_bullet	cosmic_impalas.c	/^void move_bullet() {$/;"	f	typeref:typename:void
+move_player	cosmic_impalas.c	/^void move_player() {$/;"	f	typeref:typename:void
+next_mode	cosmic_impalas.c	/^MarchMode this_mode, next_mode;$/;"	v	typeref:typename:MarchMode
+num_enemies	cosmic_impalas.c	/^byte num_enemies;$/;"	v	typeref:typename:byte
+play_game	cosmic_impalas.c	/^void play_game() {$/;"	f	typeref:typename:void
+play_round	cosmic_impalas.c	/^void play_round() {$/;"	f	typeref:typename:void
+player_bitmap	cosmic_impalas.c	/^const byte player_bitmap[] =$/;"	v	typeref:typename:const byte[]
+player_x	cosmic_impalas.c	/^byte player_x;$/;"	v	typeref:typename:byte
+right	cosmic_impalas.c	/^  byte right:1;$/;"	m	struct:__anonc8e4587a0208	typeref:typename:byte:1	file:
+sbyte	cosmic_impalas.c	/^typedef signed char sbyte;$/;"	t	typeref:typename:signed char	file:
+sbyte	gfxtest.c	/^typedef signed char sbyte;$/;"	t	typeref:typename:signed char	file:
+scanline224	cosmic_impalas.c	/^void scanline224() __interrupt {$/;"	f	typeref:typename:void
+scanline96	cosmic_impalas.c	/^void scanline96() __interrupt {$/;"	f	typeref:typename:void
+score	cosmic_impalas.c	/^word score;$/;"	v	typeref:typename:word
+shape	cosmic_impalas.c	/^  const byte* shape; \/\/ need const here$/;"	m	struct:__anonc8e4587a0108	typeref:typename:const byte *	file:
+start	cosmic_impalas.c	/^void start() __naked {$/;"	f	typeref:typename:void
+start	gfxtest.c	/^void start() {$/;"	f	typeref:typename:void
+this_mode	cosmic_impalas.c	/^MarchMode this_mode, next_mode;$/;"	v	typeref:typename:MarchMode
+update_next_enemy	cosmic_impalas.c	/^void update_next_enemy() {$/;"	f	typeref:typename:void
+word	cosmic_impalas.c	/^typedef unsigned short word;$/;"	t	typeref:typename:unsigned short	file:
+word	gfxtest.c	/^typedef unsigned short word;$/;"	t	typeref:typename:unsigned short	file:
+x	cosmic_impalas.c	/^  byte x,y;$/;"	m	struct:__anonc8e4587a0108	typeref:typename:byte	file:
+xor_pixel	cosmic_impalas.c	/^inline void xor_pixel(byte x, byte y) {$/;"	f	typeref:typename:void
+xor_pixel	gfxtest.c	/^inline void xor_pixel(byte x, byte y) {$/;"	f	typeref:typename:void
+xor_player_derez	cosmic_impalas.c	/^void xor_player_derez() {$/;"	f	typeref:typename:void
+xor_sprite	cosmic_impalas.c	/^byte xor_sprite(const byte* src, byte x, byte y) {$/;"	f	typeref:typename:byte
+y	cosmic_impalas.c	/^  byte x,y;$/;"	m	struct:__anonc8e4587a0108	typeref:typename:byte	file:
